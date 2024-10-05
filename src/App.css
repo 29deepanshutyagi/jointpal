@@ -1,0 +1,262 @@
+.App {
+  text-align: center;
+}
+
+.App-diagram {
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  margin: 6vmin;
+  margin-top: 1vmin;
+  position: relative;
+}
+.aroow {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  /* top: 50%; */
+  left: 38%;
+  top: 38%;
+  z-index: 100;
+  /* transform: rotate(-8deg); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.App-diagram > .Bodymap {
+  flex: 0 0 60%;
+  box-sizing: border-box;
+}
+
+.App-diagram > .Diagnosis {
+  flex: 0 0 40%;
+  box-sizing: border-box;
+}
+
+.App-logo {
+  height: 8vmin;
+  cursor: pointer;
+}
+
+
+.App-header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: left;
+  color: rgb(255, 255, 255);
+  padding-block: 2vh;
+  font-weight: bolder;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.App-header title {
+  background-color:	white;
+  display: inline;
+  align-self: center;
+  font-size: calc(10px + 2vmin);
+  color: #0C2D48;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.App-header > img {
+  cursor: pointer;
+  margin-right: 10px
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg)2
+  }
+}
+
+.box-container {
+  width: 30%;
+  border: 5px solid black;
+  padding: 20px;
+  margin: 30px;
+  margin-top: 50px;
+  border-radius: 10%;
+  background-color: beige;
+}
+
+.box-description {
+  width: 40%;
+  border: 5px solid black;
+  padding: 20px;
+  margin: 30px;
+  margin-top: 50px;
+  border-radius: 10%;
+  background-color: beige;
+}
+
+.row {
+  display: flex;
+
+}
+
+.exercise-header title{
+  margin-left: 100px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  font-weight: bolder;
+  border-radius: 30%;
+  background-color: rgb(18, 18, 123);
+  width: 150px;
+  height: 100px;
+}
+
+.gif1{
+  border-radius: 10%;
+  margin-left: 25px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  max-width: 100%;
+
+  height: auto;
+
+  
+}
+
+.gif2{
+  border-radius: 10%;
+  margin-left: 25px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.arrow-button {
+  display: flex;
+  color: #232b2b;
+  background-color: #84BAE6;
+  border-radius: 20px;
+  transition: all .2s ease;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  font-size: 20px;
+  width: 90px;
+  height: 35px;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.arrow-button > .arrow {
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid #0C2D48;
+  border-bottom: 2px solid #0C2D48;
+  position: relative;
+  transform: rotate(-45deg);
+  margin-left: 5px;
+  transition: all .2s ease;;
+  margin-right: 2px;
+  opacity: 0;
+}
+
+
+.arrow-button:hover > .arrow {
+  transform: rotate(135deg) translate(1px, 1px);
+  color: #728fce;
+  opacity: 1;
+}
+
+
+.arrow-button:hover {
+  background-color: #84BAE6;
+  color: #0C2D48;
+}
+
+.inspo-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.inspo-header img {
+  width: 70%;
+  height: 50%;
+  border-radius: 5%;
+  margin-top: 50px
+}
+
+.inspo-header .inspo-text {
+  display: flexbox;
+  justify-content: left;
+  align-items: center;
+  margin-left: 200px;
+  width: 100%;
+  font-size: x-large;
+}
+
+h3 {
+  color: #84BAE6;
+}
+
+.down-arrow {
+  margin-top: -15px;
+  width: 2%;
+  margin-bottom: 25px;
+}
+
+
+
+.Sign-up-button {
+  display: flex;
+  margin-left: 980px;
+  border-radius: 1.5vmin;
+  width: fit-content;
+  height: fit-content;
+  padding: 1.5vmin;
+  background-color: white;
+  border-width: 1px;
+  border-color: black;
+}
+
+.Sign-up-button:hover {
+  background-color: #84BAE6;
+  color: #0C2D48;
+}
+
+.Log-in-button:hover {
+  background-color: #84BAE6;
+  color: #0C2D48;
+}
+
+.Log-in-button {
+  display: flex;
+  margin-left: 1060px;
+  border-radius: 1.5vmin;
+  width: fit-content;
+  height: fit-content;
+  padding: 1.5vmin;
+  background-color: white;
+  border-width: 1px;
+  border-color: #0C2D48;
+  border-style:solid;
+}

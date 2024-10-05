@@ -1,0 +1,89 @@
+.bodymap {
+    position: relative;
+    margin-left: 10vmin;
+  }
+  
+  .anatomy {
+    width: 40%;
+    height: 40%;
+  }
+  
+  button {
+    position: absolute;
+    width: 4%;
+    height: 4.2%;
+    background-color: #4663ac;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: ease 0.3s;
+  }
+  
+  button:hover {
+    background-color: 	#D22B2B;
+    transform: scale(1.2);
+    transition: ease 0.3s;
+  }
+  
+  .neck {
+    top: 15%;
+    left: 48%;
+  }
+  
+  .elbowLeft {
+    top: 33%;
+    left: 37%;
+  }
+  
+  .kneeLeft {
+    top: 65%;
+    left: 43%;
+  }
+  
+  .wristLeft {
+    top: 45%;
+    left: 34%;
+  }
+
+  .shoulderLeft {
+    top: 20%;
+    left: 39%;
+  }
+
+  .elbowRight{
+    top: 33%;
+    right: 37.5%;
+  }
+
+  .kneeRight {
+    top: 65%;
+    right: 43.5%;
+  }
+
+  .wristRight {
+    top: 45%;
+    right: 34.5%;
+  }
+  .shoulderRight {
+    top: 20%;
+    right: 39.5%;
+  }
+
+  .hipLeft{
+    top: 44.5%;
+    left: 42%;
+  }
+  .hipRight{
+    top: 44.5%;
+    right: 42.3%;
+  }
+
+  .ankleLeft{
+    top: 85%;
+    left: 42%;
+  }
+
+  .ankleRight {
+    top: 85%;
+    right: 42%
+  }
